@@ -3,37 +3,84 @@
 <head>
 	<title>LA CASA DE PAPEL</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
-	<style>
-    body {
-     background-image: url('casa.jpg');
+	<link rel="icon" href="casa.ico">
+	<style type="text/css">
+	 body {
+     background-image: url('personajes.jpg');
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: 100% 100%;
     }
-</style>
+    .overlay {
+    	position: fixed;
+    	top:0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	background: rgba(0, 0, 0, 0.7);
+    	transition: opacity 500ms;
+    	visibility: visible;
+    	opacity: 1; 
+    }
+    #popup:target{
+    	visibility: hidden;
+    	opacity: 0;
+    }
+    #popupBody{
+    	width: 46%;
+    	padding: 2%;
+    	border-radius: 15px;
+    	box-shadow: 0 0 5px #CCC;
+    	background: #FFF;
+    	position: relative;
+    	margin: 20% auto;
+    	transition: all 5s ease-in-out;
+    }
+    #cerrar{
+    	position: absolute;
+    	top: 20px;
+    	right: 30px;
+    	font-size: 30px;
+    	font-weight: bold;
+    	text-decoration: none;
+    	color: #F00;
+    	transition: all 200ms;  
+    }
+    </style>
 </head>
 <body>
+	<div id="popup" class="overlay">
+		<div id="popupBody">
+			<h2>BIENVENIDA(O) A MI PAGINA NO OFICIAL DE LA CASA DE PAPEL </h2>
+			<div class="popupContent">
+				<p>Puede revisar este enlace <a href="https://www.netflix.com/bo/title/80192098">PAGINA OFICIAL </a> para direccionarse a la pagina oficial de LA CASA DE PAPEL.
+				y si no cierre esta ventana para visitar mi pagina saludos.</p>
+			</div>
+		</div>
+	</div>
+	<a id="cerrar" href="#popup">&times;</a>
 	<header>
-		
-	</header>
-	<nav class="menu">
-		<ul>
-			<li><a href="index.html">INICIO</a></li>
-			<li><a href="sinopsis.html">SINOPSIS</a></li>
-			<li><a href="trailer.html">TRAILER</a></li>
-			<li><a href="galeria.html">GALERIA DE IMAGENES</a></li>
-			<li><a href="puzzle.html">PUZZLE</a></li>
-			<li><a href="encuesta.html">ENCUESTA</a></li>
-		</ul>
-	</nav>
-	<section>
-		<article>
-		</article>
-	</section>
-	<footer>
-			
+	    <nav>
+		    <ul>
+			    <li><a class="active" href="index.html">LA CASA DE PAPEL</a></li>
+			    <li><a href="sinopsis.html">SINOPSIS<a></li>
+			    <li><a href="trailer.html">TRAILER</a></li>
+			    <li><a href="galeria.html">GALERIA DE IMAGENES</a></li>
+			    <li><a href="puzzle.html">PUZZLE</a></li>
+			    <li><a href="encuesta.html">ENCUESTA</a></li>
+		    </ul>
+	    </nav>
+    </header>
+    <footer>
+		<p>Autor: Isaac Choque<br>
+		<a href="ejemcorreo@example.com">ejemcorreo@example.com</a></p>
 	</footer>
 
 </body>
 </html>
+
+
+
+
