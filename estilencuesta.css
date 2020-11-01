@@ -1,0 +1,54 @@
+h1 {
+	color: white;
+	text-align: center;
+}
+.titulo {
+	background-color: black;
+}
+.encuest {
+		padding-bottom: 20px;
+		padding-top: 10px;
+
+}
+form {
+	background-color: #5c4d4d;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+}
+input {
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	color: black;
+	border-radius: 4px;
+}
+input[type=text], select, textarea {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+label {
+	padding: 12px 12px 10px 0;
+	display: inline-block;
+	color: white;
+}
+input[type=submit], select {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	color: white;
+	background-color: black;
+}
+input[type=reset], select {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	color: white;
+	background-color: black;
+}

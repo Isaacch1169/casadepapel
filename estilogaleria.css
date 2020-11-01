@@ -1,18 +1,24 @@
-body {
-	background-color: black;
-}
+
 .caja {
-	padding: 5px;
-	width: 100%;
+
+	background-color: black;
+    float: left;
+	margin-left: auto;
+	margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 div.galeria {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 280px;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
 }
 div.galeria:hover {
-  border: 5px solid red;
+  border: 2px solid red;
 }
 div.galeria img {
   width: 100%;
