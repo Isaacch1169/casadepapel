@@ -36,6 +36,8 @@ nav a:active {
 }
 .imagenindex {
 	width: 100%;
+	margin-bottom: auto;
+	margin-top: 5px;
 }
 .cuerpo {
 	color: white;
