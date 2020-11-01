@@ -35,7 +35,7 @@ nav a:active {
 	color: white;
 }
 .imagenindex {
-	width: 100%
+	width: 100%;
 }
 .cuerpo {
 	color: white;
@@ -43,7 +43,7 @@ nav a:active {
 	text-align: center;
 	font-family: "georgia";
 	font-size: 30px;
-
+	width: 100%;
 }
 /*.....sinopsis.....*/
 .sinopsis{
